@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+
+}
+
+nav {
+    width: 100%;
+}
+
+.div1-nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 171, 126);
+    color: white;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+.enlace-buy {
+    color: #ffff;
+}
+
+.div-span {
+    margin-right: 120px;
+}
+
+.div2-nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(214, 221, 219);
+    align-items: center;
+   justify-content: space-evenly; 
+}
+
+h1 { 
+    color: rgb(37, 171, 126);;
+}
+h1 span{
+color: #000000;
+}
+.ubicacion{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: white;
+    border: 0.5px solid rgb(217, 211, 211);
+}
+.ubicacion img{
+    width: 100%;
+    padding: 10px;
+    object-fit: cover;
+    align-items: center;
+    background-color: rgb(223, 222, 222);
+}
+.search{
+    display: flex;
+    width: 50%;
+}
+.input {
+    font-size: 1rem;
+    padding: 10px 5px;
+    width: 450px;
+    height: 50px;
+    background-color: transparent;
+    border: 0.5px solid rgb(217, 211, 211);
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-search {
+    cursor: pointer;
+    background-color: #fb8d49;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+#favorite{
+    background-color: rgb(37, 171, 126);
+}
+.btn-search img{
+    width: 30px;
+    height: 30px;
+}
+.icon{
+    display: flex;
+    gap:20px;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}
+.icon button{
+    cursor: pointer;
+    width: 30px;
+    height: 30px; 
+    border: none;
+    background-color: transparent;
+}
+.div3-nav{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div3-nav button{
+    cursor: pointer;
+    background-color:  rgb(37, 171, 126);
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    font-weight: bold;
+}
+.select-category{
+    display: flex;
+    gap: 10px;
+}
+.select-category span{
+    font-size:13px ;
+}
+.div3-nav select{
+   border: none;
+   font-size: 13px;
+}
+#img-rayo{
+    width: 40px;
+    height: 40px; 
+    background-color: rgb(222, 248, 239);
+    align-items: center;
+    margin-right: 170px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#img-rayo img{
+    width: 100%; 
+    object-fit: contain;
+}
+main {
+    width: 100%;
+    align-content: center;
+    margin-bottom: 30px;
+    }
+.div-favorites{
+    display:flex;
+    width: 100%;
+    height: 100px;
+    background-color: ghostwhite;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.div-favorites h2{
+    margin-left: 250px;
+   
+}
+.div-favorites a{
+margin: 0 auto;
+}
+.div-favorites a img{
+    width: 30px;
+    height: 30px;
+}
+.btnDelete{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: hsla(359, 93%, 62%, 0.89);
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#containerCards {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px; 
+    margin: 0 auto;
+    gap:10px;  
+}
+
+.card-products {
+    width: 230px;
+    height: auto;
+    align-content: center;
+    border: 0.5px solid rgb(217, 211, 211);
+    gap: 10px;
+}
+
+.card__image {
+    width: 100%;
+    height: 250px;
+    align-content: center;
+    object-fit: cover;
+    border-bottom:10px;
+    background-color: transparent;
+   
+}
+
+.description {
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+#price {
+    color: rgb(37, 171, 126);
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: ghostwhite;
+    padding: 20px;   
+}
+footer h2 {
+    margin-bottom: 10px;
+    color: rgb(37, 171, 126);
+}
+footer span{
+    color: black;
+}
+footer div {
+    width: 18%;
+    height: auto;
+    line-height: 1.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    list-style-type: none;
+}

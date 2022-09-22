@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/imgFavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/admin.css">
+    <title>FastKart.</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="div1-nav" >
+            <p>Something you love is now on sale <a class="enlace-buy" href="">Buy Now!</a></p>
+               <div class="div-span">
+                <span>English</span>
+                <span>USD</span>
+               </div> 
+            </div>
+            <div class="div2-nav">
+                <h1>Fast<span>Kart</span>.</h1>
+                
+               <div class="search">
+                <figure class="ubicacion">
+                    <img src="../images/ubicacion.png" alt="ubicacion">
+                </figure>
+                <input class="input" type="text" placeholder="I'm searching for...">
+                <button  class="btn-search"><img src="../images/buscar.png" alt=""></button>
+               </div> 
+               <div class="icon">
+                <figure>
+                    <img src="../images/llamada.png" alt="contacto">
+                </figure>
+                
+                <figure>
+                  <a href="../pages/favorites.html"><img id="favorite" src="../images/me-gusta.png" alt="favorite"></a> 
+                </figure>
+                <button><a href="../pages/carrito.html"><img src="../images/carrito-de-compras.png" alt="carrito"></a></button>
+                <figure>
+                    <img id="admin" src="../images/acceso.png" alt="acceso">
+                </figure>
+               </div>  
+            </div>
+           <div class="div3-nav">
+            <button>All Categories</button>
+            <div class="select-category">
+                <select name="Home" id="home">
+                    <option value="value1">Home</option>
+                </select>
+                <select name="Home" id="home">
+                    <option value="value1">Shop</option>
+                </select>
+                <select name="Home" id="home">
+                    <option value="value1">Product</option>
+                </select>
+                <select name="Home" id="home">
+                    <option value="value1">Mega Menu</option>
+                </select>
+                <select name="Home" id="home">
+                    <option value="value1">Blog</option>
+                </select>
+                <select name="Home" id="home">
+                    <option value="value1">Pages</option>
+                </select>
+                <span>Contact</span>
+            </div>
+            
+            <figure id="img-rayo">
+                <img src="../images/rayo.png" alt="rayo">
+               </figure> 
+           </div>
+        </nav>
+    </header>
+    <main>
+        <div class="div-admin">
+            <h2>Admistrador</h2>
+            <a href="../index.html"><img src="../images/home.png" alt="home"></a>
+        </div>
+
+    <button id="btnNew">Crear Nuevo Producto</button>
+    <aside id="containerFormProducts" class="hid">
+        <form id="form">
+            <input type="text" class="input" placeholder="Tipo" name="type">
+            <input type="text" class="input" placeholder="Nombre" name="name">
+            <input type="text" class="input" placeholder="Gramos" name="mg">
+            <input type="text" class="input" placeholder="Precio" name="price">
+            <input type="text" class="input" placeholder="imagen" name="image">
+            <input type="number" class="input" placeholder="Cantidad" name="cantidad">
+            <button type="submit" class="btnSubmit">Guardar</button>
+        </form>
+    </aside>
+    <button class="btnBuy"><a href="../pages/buy.html">Ver compras</a></button>
+    <section id="containerCards">
+
+    </section>
+
+    <script src="../scripts/admin.js"></script>
+   </main>
+   <footer>
+    <div>
+        <p>
+            <h2>Fast<span>Kart</span>.</h2>
+            In publishing and graphic <br>
+            design Lorem ipsum is a <br>
+            placeholder text commonly <br>
+            used to demonstrate the visual <br>
+            form.
+        </p>
+        <p>
+            1418 Riverwood Drive, CA <br>
+            96052. US
+        </p>
+        <p>support@fastkart.com</p>
+    </div>
+    <div>
+        <ul>
+            <h3>Categories</h3>
+            <li>Vegetables & Fruit</li>
+            <li>Beverages</li>
+            <li>Meats & Seafood</li>
+            <li>Frozen Foods</li>
+            <li>Biscuits & Snacks</li>
+            <li>Grocery & Staples</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <h3>Useful Links</h3>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <h3>Help Center</h3>
+            <li>Your Order</li>
+            <li>Your Account</li>
+            <li>Track Order</li>
+            <li>Your Wishlist</li>
+            <li>Search</li>
+            <li>FAQ</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Contact Us</h3>
+        <p>
+            Hotline 24/7: <br>+91 888 104 2340
+        </p>
+
+    </div>
+</footer>
+</body>
+</html>

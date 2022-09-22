@@ -1,0 +1,787 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "type": "Snack",
+      "name": "Wafer Gluten Free",
+      "mg": "154,8 g",
+      "price": "10.25",
+      "image": "https://static.merqueo.com/images/products/large/1b7ad539-65ba-4611-a7ce-3a8d7a9d405b.jpg",
+      "cantidad": 1
+    },
+    {
+      "type": "Potato Chips",
+      "name": "Lay's",
+      "mg": "190 g",
+      "price": "26.69",
+      "image": "https://dojiw2m9tvv09.cloudfront.net/39452/product/L_default0902.png?17",
+      "cantidad": "2",
+      "id": 2
+    },
+    {
+      "type": "Cookies",
+      "name": "Oreo",
+      "mg": "435 g",
+      "price": "26.69",
+      "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+      "cantidad": "1",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "type": "Pasabocas",
+      "name": "Doritos",
+      "mg": "200 g",
+      "price": "26.69",
+      "image": "https://exitocol.vtexassets.com/arquivos/ids/14340903/Pasabocas-Maiz-Queso-DORITOS-200-gr-3055858_a.jpg?v=637970078077970000",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "type": "Snack",
+      "name": "TOSH",
+      "mg": "180 g",
+      "price": "26.69",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185485/7702025131655.jpg?v=637813979248970000",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "type": "Cookies",
+      "name": "Festival",
+      "mg": "600 g",
+      "price": "26.69",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "type": "Coffee",
+      "name": "Juan Valdez",
+      "mg": "454 g",
+      "price": "26.69",
+      "image": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b3f9a442f0e14fc0e8e9_cafe-origen-tolima-juan-valdez.png",
+      "cantidad": 1
+    },
+    {
+      "id": 9,
+      "type": "Pasabocas",
+      "name": "Choclitos",
+      "mg": "230 g",
+      "price": "26.69",
+      "image": "https://www.licoresmedellin.com/wp-content/uploads/2021/08/choclitos_limon_230g.jpg",
+      "cantidad": 1
+    },
+    {
+      "type": "Potato Chips",
+      "name": "Pringles",
+      "mg": "135 g",
+      "price": "26",
+      "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+      "cantidad": "1",
+      "id": 10
+    },
+    {
+      "type": "Snack",
+      "name": "Pistachios",
+      "mg": "220 g",
+      "price": "15.80",
+      "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-frutos-secos-sin-sal-pistachos_439dfec7_1280x1829.jpg",
+      "cantidad": "4",
+      "id": 11
+    },
+    {
+      "type": "Chocolate",
+      "name": "Chocolate",
+      "mg": "435 g",
+      "price": "30.57",
+      "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-chocolate-negro_330f220a_1280x1829.jpg",
+      "cantidad": "2",
+      "id": 12
+    },
+    {
+      "type": "Cookies",
+      "name": "Noel",
+      "mg": "100",
+      "price": "2345",
+      "image": "https://saltinnoel.com.co/wp-content/uploads/2017/07/galletas-saltin-noel-tradicional-galletas-banner.png",
+      "cantidad": "1",
+      "id": 13
+    }
+  ],
+  "carrito": [
+    {
+      "id": 3,
+      "type": "Cookies",
+      "name": "Oreo",
+      "mg": "432 g",
+      "price": "26.69",
+      "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+      "cantidad": 1
+    },
+    {
+      "type": "Snack",
+      "name": "Pistachios",
+      "mg": "220 g",
+      "price": "15.80",
+      "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-frutos-secos-sin-sal-pistachos_439dfec7_1280x1829.jpg",
+      "cantidad": "4",
+      "id": 11
+    },
+    {
+      "id": 4,
+      "type": "Pasabocas",
+      "name": "Doritos",
+      "mg": "200 g",
+      "price": "26.69",
+      "image": "https://exitocol.vtexassets.com/arquivos/ids/14340903/Pasabocas-Maiz-Queso-DORITOS-200-gr-3055858_a.jpg?v=637970078077970000",
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "type": "Coffee",
+      "name": "Juan Valdez",
+      "mg": "454 g",
+      "price": "26.69",
+      "image": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b3f9a442f0e14fc0e8e9_cafe-origen-tolima-juan-valdez.png",
+      "cantidad": 1
+    }
+  ],
+  "favorites": [
+    {
+      "id": 3,
+      "type": "Cookies",
+      "name": "Oreo",
+      "mg": "432 g",
+      "price": "26.69",
+      "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "type": "Coffee",
+      "name": "Juan Valdez",
+      "mg": "454 g",
+      "price": "26.69",
+      "image": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b3f9a442f0e14fc0e8e9_cafe-origen-tolima-juan-valdez.png",
+      "cantidad": 1
+    },
+    {
+      "id": 7,
+      "type": "Coffee",
+      "name": "SELLO ROJO",
+      "mg": "250 g",
+      "price": "26.69",
+      "image": "https://www.eurosupermercados.com.co/media/catalog/product/cache/5db2c2cd17d64c361c13f6f6460f1cf1/7/7/7702032252190.jpg",
+      "cantidad": 1
+    }
+  ],
+  "buy": [
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "type": "Cookies",
+          "name": "Festival",
+          "mg": "600 g",
+          "price": "26.69",
+          "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+          "cantidad": "2"
+        },
+        {
+          "id": 9,
+          "type": "Pasabocas",
+          "name": "Choclitos",
+          "mg": "230 g",
+          "price": "26.69",
+          "image": "https://www.licoresmedellin.com/wp-content/uploads/2021/08/choclitos_limon_230g.jpg",
+          "cantidad": 1
+        },
+        {
+          "id": 10,
+          "type": "Potato Chips",
+          "name": "Pringles",
+          "mg": "130 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+          "cantidad": "3"
+        }
+      ],
+      "cantidad": "3",
+      "valortotal": null,
+      "Name": "Ana",
+      "Adress": "robledo",
+      "Phone": "333",
+      "id": 2
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "type": "Cookies",
+          "name": "Festival",
+          "mg": "600 g",
+          "price": "26.69",
+          "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+          "cantidad": "4"
+        },
+        {
+          "id": 9,
+          "type": "Pasabocas",
+          "name": "Choclitos",
+          "mg": "230 g",
+          "price": "26.69",
+          "image": "https://www.licoresmedellin.com/wp-content/uploads/2021/08/choclitos_limon_230g.jpg",
+          "cantidad": "3"
+        },
+        {
+          "id": 10,
+          "type": "Potato Chips",
+          "name": "Pringles",
+          "mg": "130 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+          "cantidad": 1
+        }
+      ],
+      "cantidad": "3",
+      "valortotal": null,
+      "Name": "Ana",
+      "Adress": "robledo",
+      "Phone": "333",
+      "id": 3
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": "3"
+        },
+        {
+          "id": 6,
+          "type": "Cookies",
+          "name": "Festival",
+          "mg": "600 g",
+          "price": "26.69",
+          "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+          "cantidad": "3"
+        },
+        {
+          "id": 9,
+          "type": "Pasabocas",
+          "name": "Choclitos",
+          "mg": "230 g",
+          "price": "26.69",
+          "image": "https://www.licoresmedellin.com/wp-content/uploads/2021/08/choclitos_limon_230g.jpg",
+          "cantidad": 1
+        },
+        {
+          "id": 10,
+          "type": "Potato Chips",
+          "name": "Pringles",
+          "mg": "130 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+          "cantidad": 1
+        }
+      ],
+      "cantidad": "3",
+      "valortotal": null,
+      "Name": "Ana",
+      "Adress": "robledo",
+      "Phone": "444",
+      "id": 4
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "type": "Cookies",
+          "name": "Festival",
+          "mg": "600 g",
+          "price": "26.69",
+          "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+          "cantidad": "3"
+        },
+        {
+          "id": 9,
+          "type": "Pasabocas",
+          "name": "Choclitos",
+          "mg": "230 g",
+          "price": "26.69",
+          "image": "https://www.licoresmedellin.com/wp-content/uploads/2021/08/choclitos_limon_230g.jpg",
+          "cantidad": 1
+        },
+        {
+          "id": 10,
+          "type": "Potato Chips",
+          "name": "Pringles",
+          "mg": "130 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+          "cantidad": "2"
+        }
+      ],
+      "valortotal": null,
+      "Name": "Ana",
+      "Adress": "robledo",
+      "Phone": "77777",
+      "id": 5
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "type": "Cookies",
+          "name": "Festival",
+          "mg": "600 g",
+          "price": "26.69",
+          "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+          "cantidad": "3"
+        },
+        {
+          "id": 9,
+          "type": "Pasabocas",
+          "name": "Choclitos",
+          "mg": "230 g",
+          "price": "26.69",
+          "image": "https://www.licoresmedellin.com/wp-content/uploads/2021/08/choclitos_limon_230g.jpg",
+          "cantidad": 1
+        },
+        {
+          "id": 10,
+          "type": "Potato Chips",
+          "name": "Pringles",
+          "mg": "130 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+          "cantidad": "3"
+        }
+      ],
+      "valortotal": 208,
+      "Name": "Ana",
+      "Adress": "",
+      "Phone": "5555",
+      "id": 6
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "type": "Cookies",
+          "name": "Festival",
+          "mg": "600 g",
+          "price": "26.69",
+          "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+          "cantidad": 1
+        },
+        {
+          "id": 10,
+          "type": "Potato Chips",
+          "name": "Pringles",
+          "mg": "130 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+          "cantidad": "3"
+        }
+      ],
+      "valortotal": 130,
+      "Name": "Maria",
+      "Adress": "Medellin",
+      "Phone": "567890",
+      "id": 7
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": "2"
+        },
+        {
+          "id": 6,
+          "type": "Cookies",
+          "name": "Festival",
+          "mg": "600 g",
+          "price": "26.69",
+          "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+          "cantidad": "2"
+        },
+        {
+          "id": 10,
+          "type": "Potato Chips",
+          "name": "Pringles",
+          "mg": "130 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+          "cantidad": 1
+        }
+      ],
+      "valortotal": 130,
+      "Name": "Maria",
+      "Adress": "robledo",
+      "Phone": "00000",
+      "id": 8
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "type": "Cookies",
+          "name": "Festival",
+          "mg": "600 g",
+          "price": "26.69",
+          "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185388/7702025126996-1.jpg?v=637813978890470000",
+          "cantidad": 1
+        },
+        {
+          "id": 10,
+          "type": "Potato Chips",
+          "name": "Pringles",
+          "mg": "130 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/771549/PAPAS-PRINGLES-QUESO_F.png?v=637951127241470000",
+          "cantidad": 1
+        },
+        {
+          "id": 8,
+          "type": "Coffee",
+          "name": "Juan Valdez",
+          "mg": "454 g",
+          "price": "26.69",
+          "image": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b3f9a442f0e14fc0e8e9_cafe-origen-tolima-juan-valdez.png",
+          "cantidad": 1
+        },
+        {
+          "id": 7,
+          "type": "Coffee",
+          "name": "SELLO ROJO",
+          "mg": "250 g",
+          "price": "26.69",
+          "image": "https://www.eurosupermercados.com.co/media/catalog/product/cache/5db2c2cd17d64c361c13f6f6460f1cf1/7/7/7702032252190.jpg",
+          "cantidad": 1
+        }
+      ],
+      "valortotal": 130,
+      "Name": "Juan",
+      "Adress": "Bogota",
+      "Phone": "90878",
+      "id": 9
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        }
+      ],
+      "valortotal": 26,
+      "Name": "Pedro",
+      "Adress": "Cartagena",
+      "Phone": "1234567",
+      "id": 10
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        }
+      ],
+      "valortotal": 26.69,
+      "Name": "Carlos",
+      "Adress": "Medellin",
+      "Phone": "89998",
+      "id": 11
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": "2"
+        }
+      ],
+      "valortotal": 53.38,
+      "Name": "Ramon",
+      "Adress": "Medellin",
+      "Phone": "4444",
+      "id": 12
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": "1"
+        },
+        {
+          "type": "Snack",
+          "name": "Pistachios",
+          "mg": "220 g",
+          "price": "15.80",
+          "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-frutos-secos-sin-sal-pistachos_439dfec7_1280x1829.jpg",
+          "cantidad": "1",
+          "id": 11
+        }
+      ],
+      "valortotal": 42.49,
+      "Name": "Adrian",
+      "Adress": "Bogota",
+      "Phone": "3333",
+      "id": 13
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": "2"
+        },
+        {
+          "type": "Snack",
+          "name": "Pistachios",
+          "mg": "220 g",
+          "price": "15.80",
+          "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-frutos-secos-sin-sal-pistachos_439dfec7_1280x1829.jpg",
+          "cantidad": "1",
+          "id": 11
+        }
+      ],
+      "valortotal": 69.18,
+      "Name": "David",
+      "Adress": "Cartagena",
+      "Phone": "6666",
+      "id": 14
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": "2"
+        },
+        {
+          "type": "Snack",
+          "name": "Pistachios",
+          "mg": "220 g",
+          "price": "15.80",
+          "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-frutos-secos-sin-sal-pistachos_439dfec7_1280x1829.jpg",
+          "cantidad": "1",
+          "id": 11
+        }
+      ],
+      "valortotal": 69.18,
+      "Name": "Daniela",
+      "Adress": "Itagui",
+      "Phone": "65776",
+      "id": 15
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "type": "Snack",
+          "name": "Pistachios",
+          "mg": "220 g",
+          "price": "15.80",
+          "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-frutos-secos-sin-sal-pistachos_439dfec7_1280x1829.jpg",
+          "cantidad": "4",
+          "id": 11
+        },
+        {
+          "id": 9,
+          "type": "Pasabocas",
+          "name": "Choclitos",
+          "mg": "230 g",
+          "price": "26.69",
+          "image": "https://www.licoresmedellin.com/wp-content/uploads/2021/08/choclitos_limon_230g.jpg",
+          "cantidad": 1
+        }
+      ],
+      "valortotal": 116.58,
+      "Name": "Maria",
+      "Adress": "67890",
+      "Phone": "234",
+      "id": 16
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "type": "Snack",
+          "name": "Pistachios",
+          "mg": "220 g",
+          "price": "15.80",
+          "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-frutos-secos-sin-sal-pistachos_439dfec7_1280x1829.jpg",
+          "cantidad": "4",
+          "id": 11
+        },
+        {
+          "id": 4,
+          "type": "Pasabocas",
+          "name": "Doritos",
+          "mg": "200 g",
+          "price": "26.69",
+          "image": "https://exitocol.vtexassets.com/arquivos/ids/14340903/Pasabocas-Maiz-Queso-DORITOS-200-gr-3055858_a.jpg?v=637970078077970000",
+          "cantidad": 1
+        }
+      ],
+      "valortotal": 116.58,
+      "Name": "Camilo",
+      "Adress": "Santa Maria",
+      "Phone": "4567",
+      "id": 17
+    },
+    {
+      "data": [
+        {
+          "id": 3,
+          "type": "Cookies",
+          "name": "Oreo",
+          "mg": "432 g",
+          "price": "26.69",
+          "image": "https://copservir.vtexassets.com/arquivos/ids/764705/GALLETA-OREO-ORIGINAL_F.png?v=637950272104500000",
+          "cantidad": 1
+        },
+        {
+          "type": "Snack",
+          "name": "Pistachios",
+          "mg": "220 g",
+          "price": "15.80",
+          "image": "https://www.clara.es/medio/2020/11/10/snacks-saludables-frutos-secos-sin-sal-pistachos_439dfec7_1280x1829.jpg",
+          "cantidad": "4",
+          "id": 11
+        },
+        {
+          "id": 4,
+          "type": "Pasabocas",
+          "name": "Doritos",
+          "mg": "200 g",
+          "price": "26.69",
+          "image": "https://exitocol.vtexassets.com/arquivos/ids/14340903/Pasabocas-Maiz-Queso-DORITOS-200-gr-3055858_a.jpg?v=637970078077970000",
+          "cantidad": 1
+        },
+        {
+          "id": 8,
+          "type": "Coffee",
+          "name": "Juan Valdez",
+          "mg": "454 g",
+          "price": "26.69",
+          "image": "https://global-uploads.webflow.com/5f96ebdeb7e4b038d8dc6679/6095b3f9a442f0e14fc0e8e9_cafe-origen-tolima-juan-valdez.png",
+          "cantidad": "3"
+        }
+      ],
+      "valortotal": 196.65,
+      "Name": "Felipe",
+      "Adress": "itagui",
+      "Phone": "2345",
+      "id": 18
+    }
+  ]
+}

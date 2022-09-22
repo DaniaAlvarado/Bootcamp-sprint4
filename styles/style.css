@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+
+}
+
+nav {
+    width: 100%;
+
+}
+
+.div1-nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 171, 126);
+    color: white;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+.enlace-buy {
+    color: #ffff;
+}
+
+.div-span {
+    margin-right: 120px;
+}
+
+.div2-nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: ghostwhite;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: rgb(37, 171, 126);
+}
+
+h1 span {
+    color: #000000;
+}
+
+.ubicacion {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: white;
+    border: 0.5px solid rgb(217, 211, 211);
+}
+
+.ubicacion img {
+    width: 100%;
+    padding: 10px;
+    object-fit: cover;
+    background-color: rgb(223, 222, 222);
+}
+
+.search {
+    display: flex;
+    width: 50%;
+
+}
+
+.input {
+    font-size: 1rem;
+    padding: 10px 5px;
+    height: 50px;
+    width: 450px;
+    background-color: transparent;
+    border: 0.5px solid rgb(217, 211, 211);
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-search {
+    cursor: pointer;
+    background-color: #fb8d49;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+
+.btn-search img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.div3-nav {
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div3-nav button {
+    cursor: pointer;
+    background-color: rgb(37, 171, 126);
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.select-category {
+    display: flex;
+    gap: 10px;
+}
+
+.select-category span {
+    font-size: 13px;
+}
+
+.div3-nav select {
+    border: none;
+    font-size: 13px;
+}
+
+#img-rayo {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(222, 248, 239);
+    align-items: center;
+    margin-right: 170px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#img-rayo img {
+    width: 100%;
+    object-fit: contain;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.div-products {
+    display: flex;
+    background-color: ghostwhite;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+
+.description-products {
+    width: 50%;
+    height: auto;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.description-products p {
+    margin-top: 50px;
+    margin-left: 30px;
+    color: rgb(137, 136, 136);
+    font-weight: bold;
+}
+
+.description-products span {
+    color: hsla(359, 93%, 62%, 0.89);
+}
+
+.description-products h2 {
+    margin-left: 30px;
+}
+
+#title-Daily {
+    color: rgb(37, 171, 126);
+    font-weight: bold;
+}
+
+.description-products button {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    color: #ffff;
+    background-color: hsla(359, 93%, 62%, 0.89);
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.description-products-img figure {
+    width: 90%;
+    height: 350px;
+}
+
+.description-products-img {
+    width: 100%;
+    height: 350px;
+    align-content: center;
+}
+
+.description-products-img img {
+    width: 90%;
+    height: 300px;
+    margin-top: 0;
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+.img-rigth {
+    width: 25%;
+    height: auto;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.img-rigth figure {
+    background-color: ghostwhite;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 190px;
+    padding: 10px;
+    align-items: center;
+}
+
+.img-rigth img {
+    width: 90%;
+    height: 170px;
+    object-fit: contain;
+
+}
+
+.container-products {
+    display: flex;
+}
+
+.container-products aside {
+    list-style-type: none;
+    line-height: 1.8rem;
+    background-color: ghostwhite;
+    width: 25%;
+    padding: 40px;
+    margin-left: 120px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+aside img {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#containerCards {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+
+.card-products {
+    width: 230px;
+    height: auto;
+    align-content: center;
+    border: 0.5px solid rgb(217, 211, 211);
+}
+
+.card__image {
+    width: 100%;
+    height: 250px;
+    align-content: center;
+    object-fit: cover;
+    border-bottom: 10px;
+    background-color: transparent;
+}
+
+.description {
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+#price {
+    color: rgb(37, 171, 126);
+}
+
+.btnFavorites {
+    cursor: pointer;
+    margin-left: 10px;
+    color: red;
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btnCarrito {
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#in-stock {
+    color: rgb(37, 171, 126);
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: ghostwhite;
+    padding: 20px;
+    flex-direction: row;
+
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    color: rgb(37, 171, 126);
+}
+footer span{
+    color: black;
+}
+
+footer div {
+    width: 18%;
+    height: auto;
+    line-height: 1.8rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    list-style-type: none;
+}
